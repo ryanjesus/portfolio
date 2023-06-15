@@ -1,0 +1,63 @@
+:root {
+    --cor-primaria: #2C3639;
+    --cor-secundaria: #DCD7C9;
+    --cor-terciaria: #A27B5C;
+    --cor-hover: #3F4E4F;
+
+    --font-primaria: 'Montserrat', sans-serif;
+    --font-secundaria: 'Krona One', sans-serif;
+}
+
+.apresentacao_sobre_mim {
+    background-color: #39444F;
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo_sobre_mim{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo_sobre_mim {
+    font-size: 2.25rem;
+    font-family: var(--font-secundaria);
+}
+
+.apresentacao__conteudo__texto_sobre_mim {
+    font-size: 1.5rem;
+    font-family: var(--font-primaria);
+}
+
+.foto-ryan_dois{
+    width: 37%;
+    border-radius: 16px;
+    border: 2px solid var(--cor-terciaria);
+    padding: 20px;
+}
+
+
+@media (max-width: 1200px) {
+    .cabeçalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}

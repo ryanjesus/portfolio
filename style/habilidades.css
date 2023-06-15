@@ -1,0 +1,40 @@
+:root {
+    --cor-primaria: #2C3639;
+    --cor-secundaria: #DCD7C9;
+    --cor-terciaria: #A27B5C;
+    --cor-hover: #3F4E4F;
+    --cor-teste: #A27B5C;
+
+    --font-primaria: 'Montserrat', sans-serif;
+    --font-secundaria: 'Krona One', sans-serif;
+}
+
+.apresentacao__habilidades {
+    background-color: #3E4C5C;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    gap: 82px;
+    flex-direction: column;
+}
+
+.apresentacao__habilidades__titulo {
+    font-size: 2.25rem;
+    font-family: var(--font-secundaria); 
+}
+
+.apresentacao__habilidades__item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.icone_item {
+    transition: transform 0.5s ease;
+}
+
+.icone_item:hover {
+    transform: rotate(360deg);
+}
+
