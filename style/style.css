@@ -38,6 +38,7 @@ body {
     background: rgba(255, 255, 255, .10);
     border-bottom: 1px solid #ffffff30;
     backdrop-filter: blur(10px);
+    z-index: 1;
 }
 
 .cabecalho__menu {
